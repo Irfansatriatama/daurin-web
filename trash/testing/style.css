@@ -1,0 +1,14 @@
+footer {
+    background-color: #f1f1f1; /* Warna background footer */
+    padding: 20px;
+  }
+  
+  .footer-top {
+    background-color: #fff; /* Warna background bagian atas footer */
+    padding: 20px;
+  }
+  
+  .footer-bottom {
+    background-color: #dcdcdc; /* Warna background bagian bawah footer */
+    padding: 20px;
+  }
