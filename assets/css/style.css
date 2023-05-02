@@ -50,6 +50,13 @@ a {
     position: absolute;
 }
 
+.container-detail {
+    margin: 20px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
 .col-1 .icon-profile a {
     font-size: 20px;
     color: var(--black);
@@ -124,6 +131,12 @@ a {
     color: var(--grey1);
 }
 
+.col-9 .status h4{
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--yellowc);
+}
+
 /* kanan */
 
 
@@ -143,6 +156,13 @@ a {
 .container .txt-newest {
     font-size: 20px;
     color: var(--black);
+    margin: 20px 0 40px 20px;
+}
+
+.container-detail .txt-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--green2);
     margin: 20px 0 40px 20px;
 }
 
@@ -185,11 +205,44 @@ a {
     color: var(--maroon2);
 }
 
+.contact {
+    background-color: var(--green2);
+    color: white;
+    width: 200px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: var(--green2) 2px;
+    font-size: 16px;
+}
+
+.contact:hover {
+    border: 1px solid var(--green2);
+    border-radius: 5px;
+    background-color: var(--white);
+    color: var(--green2);
+
+}
+.cancel {
+    background-color: var(--maroon2);
+    color: white;
+    width: 200px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: var(--maroon2) 2px;
+    font-size: 16px;
+}
+
+.cancel:hover {
+    border: 1px solid var(--maroon2);
+    border-radius: 5px;
+    background-color: var(--white);
+    color: var(--maroon2);
+}
+
 .save {
     background-color: var(--green3);
     color: white;
-    width: 100px;
-    padding: 5px 15px;
+    width: 200px;
     border-radius: 5px;
     border: var(--green3) 2px;
     font-size: 16px;
@@ -245,5 +298,50 @@ a {
 }
 
 .row .save {
-    margin-right: 60px;
+    margin-right: auto;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sub-title{
+    font-weight: bold;
+}
+
+
+.information {
+    padding: 20px 55px;
+}
+
+.trash-information {
+    padding: 20px 55px;
+}
+
+.discount {
+    font-weight: bold;
+    color: var(--maroon2);
+}
+
+.border-custom {
+    border: 1px solid var(--black);
+    border-color: var(--greyd);
+    border-radius: 5px;
+    background-color: var(--greyd);
+    height: 40px;
+    width: auto;
+}
+
+.status-info {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 10px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    border-radius: 10px;
+    border: var(--grey1) 2px solid;
 }
