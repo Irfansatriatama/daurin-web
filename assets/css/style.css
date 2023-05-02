@@ -250,7 +250,8 @@ a {
 .save {
     background-color: var(--green3);
     color: white;
-    width: 200px;
+    width: 150px;
+    height: 30px;
     border-radius: 5px;
     border: var(--green3) 2px;
     font-size: 16px;
@@ -263,7 +264,7 @@ a {
     color: var(--green3);
 }
 
-.save {
+.sale {
     background-color: var(--green3);
     color: white;
     width: 200px;
@@ -272,7 +273,7 @@ a {
     font-size: 16px;
 }
 
-.save:hover {
+.sale:hover {
     border: 1px solid var(--green3);
     border-radius: 5px;
     background-color: var(--white);
