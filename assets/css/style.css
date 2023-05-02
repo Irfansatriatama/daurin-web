@@ -142,8 +142,16 @@ a {
 
 .container .txt-title {
     font-size: 36px;
-    color: var(--green2);
+    color: var(--green3);
     margin: 20px 0 40px 20px;
+    font-weight: bold;
+}
+
+.container-detail .txt-title2 {
+    font-size: 36px;
+    color: var(--green3);
+    margin: 20px 0 10px 10px;
+    font-weight: bold;
 }
 
 .container .txt-recycling {
@@ -255,6 +263,22 @@ a {
     color: var(--green3);
 }
 
+.save {
+    background-color: var(--green3);
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+    border: var(--green3) 2px;
+    font-size: 16px;
+}
+
+.save:hover {
+    border: 1px solid var(--green3);
+    border-radius: 5px;
+    background-color: var(--white);
+    color: var(--green3);
+}
+
 .recycling {
     background-color: var(--green2);
     color: white;
@@ -271,6 +295,22 @@ a {
     border-radius: 50px;
     background-color: var(--white);
     color: var(--green2);
+}
+
+.next {
+    background-color: var(--green3);
+    color: white;
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    border: var(--green3) 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.next img {
+    width: 20px;
+    height: auto;
 }
 
 .method {
@@ -332,11 +372,49 @@ a {
 
 
 .information {
-    padding: 20px 55px;
+    padding: 10px 55px;
 }
 
 .trash-information {
     padding: 20px 55px;
+}
+
+.form-info {
+    padding: 15px 0 5px 15px;
+}
+
+.form-info h4 {
+    margin-bottom: 0;
+}
+
+.form-categories {
+    margin: 5px 0;
+}
+
+.form-categories h4{
+    margin-bottom: 0;
+    font-weight: bold;
+    color: var(--grey1);
+}
+
+.form-trash {
+    margin: 5px 0 5px 15px;
+}
+
+.form-trash p {
+    margin-bottom: 0;
+    color: var(--grey1);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.form-estimation {
+    padding-left: 20px;
+}
+
+.form-estimation h4 {
+    margin-bottom: 0;
+    margin-top: 5px;
 }
 
 .discount {
@@ -353,6 +431,22 @@ a {
     width: auto;
 }
 
+.border-custom2 {
+    border: 1px solid var(--black);
+    border-color: var(--greyd);
+    background-color: var(--greyd);
+    height: 30px;
+    width: auto;
+}
+
+.border-custom2 h4{
+    margin-bottom: 0;
+    font-weight: bold;
+    color: var(--grey1);
+    font-size: 16px;
+    margin: 5px 0 0 15px;
+}
+
 .status-info {
     width: 300px;
     margin-left: auto;
@@ -365,3 +459,41 @@ a {
     border-radius: 10px;
     border: var(--grey1) 2px solid;
 }
+
+.icon-categories {
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.txt-categories {
+    display: inline-block;
+    color: var(--green3);
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.add-number {
+    width: 30px;
+    height: auto;
+}
+
+.conclusion{
+    margin-top: 30px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+/* tombol naik turun input number */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#myNumberInput {
+    -moz-appearance: textfield;
+  }
+
+/* -----------------------------  */
