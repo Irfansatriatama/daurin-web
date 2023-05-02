@@ -273,6 +273,26 @@ a {
     color: var(--green2);
 }
 
+.method {
+    background-color: var(--white);    
+    width: 250px;
+    height: 150px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: var(--green2) 3px solid;    
+}
+
+.method img {
+    width: 80px;
+    height: auto;
+}
+
+.method h4 {
+    color: var(--green3);
+    font-size: 28px;
+    font-weight: bold;
+}
+
 .col-12 .border {
     border-width: 100%;
     border-radius: 5px;
