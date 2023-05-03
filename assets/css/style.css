@@ -472,6 +472,7 @@ a {
     color: var(--green3);
     font-weight: bold;
     margin-left: 10px;
+    margin-bottom: 0;
 }
 
 .add-number {
@@ -483,6 +484,24 @@ a {
     margin-top: 30px;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
+}
+
+.form-info .sub-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-add input.form-control {
+    width: 60px;
+    height: 30px;
+    border: 2px solid var(--green2) ;
+}
+
+.comment {
+    width: 704px; 
+    height: auto; 
+    margin: 5px 0 5px 15px; 
+    font-size: 14px;
 }
 
 /* tombol naik turun input number */
@@ -498,3 +517,97 @@ input[type=number]::-webkit-outer-spin-button {
   }
 
 /* -----------------------------  */
+
+/* Halaman Responsive */
+
+@media (max-width: 1000px) {
+
+    .container-detail .txt-title {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .method {
+        width: 200px;
+        height: 120px;
+    }
+
+    .method img {
+        width: 60px;
+        height: auto;
+    }
+
+    .method h4 {
+        font-size: 20px;
+    }
+
+    .information {
+        padding: 10px 15px;
+    }
+    
+    .trash-information {
+        padding: 20px 15px;
+    }
+    
+    .form-info .sub-title{
+        font-size: 16px;
+    }
+
+    .form-info .sub-info {
+        font-size: 12px;
+    }    
+    
+    textarea.form-control {
+        width: 452px;
+        font-size: 12px;
+    }
+
+    .icon-categories {
+        width: 30px;
+        height: auto;
+        vertical-align: middle;
+    }
+
+    .txt-categories {
+        font-size: 12px;
+    }
+
+    .form-trash p {
+        font-size: 10px;
+    }
+
+    .form-add img {
+        width: 25px;
+    }
+
+    .form-add input.form-control  {
+        width: 45px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .next {
+        width: 80px;
+        height: 25px;
+        font-size: 16px;
+    }
+
+    .next img {
+        width: 16px;
+    }
+
+    .form-estimation {
+        padding-left: 10px;
+    }
+
+    .form-estimation h4 {
+        font-size: 12px;
+    }
+
+    .est {
+        font-size: 12px;
+    }
+}
