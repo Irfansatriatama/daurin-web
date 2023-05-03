@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Daurin</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <style>
         *{
@@ -15,15 +16,16 @@
 </head>
     
 <body>
-    <div class="title-login" style="color: black; align-items: center;">
+    <div class="title-login" style="color: black; align-items: center; font-weight: bold; margin-bottom: 10px;">
         <span>Contact Us</span>
-        <span>Any Question or remarks? Just write us a message!</span>
+        <span style="font-size: 1em; font-weight: 400; text-align: center;">Any Question or remarks? Just write us a message!</span>
     </div>
     <div class="container-contact">
         <div class="contact-info">
             <!-- contact daurin -->
+            <div class="title-login" style="font-size: 1.1em; color: white; font-weight: bold;">Contact Information</div>
             <div class="box-contact">
-                <div class="icon-contact"><i class="fas fa-map-pin" style="color: #000000;"></i></div>
+                <div class="icon-contact"><i class="fas fa-map-pin"></i></div>
                 <div class="text-contact">
                     <p>Kantor Daurin<br/>
                         Jl. RS. Fatmawati Raya No.4, RT.4/RW.9, Cilandak Barat, 
@@ -31,38 +33,46 @@
                 </div>
             </div>
             <div class="box-contact">
-                <div class="icon-contact"><i class="fas fa-at" style="color: #000000;"></i></div>
+                <div class="icon-contact"><i class="fas fa-at"></i></div>
                 <div class="text-contact">
                     <p>contact@daurin.com</p>
                 </div>
             </div>
             <div class="box-contact">
-                <div class="icon-contact"><i class="fas fa-phone-alt" style="color: #000000;"></i></div>
+                <div class="icon-contact"><i class="fas fa-phone-alt"></i></div>
                 <div class="text-contact">
                     <p>(021) 753 23 45</p>
                 </div>
             </div>
+            <!-- social media -->
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
         </div>
+        <!-- send message form -->
         <div class="contact-form">
             <form action="">
-                <div class="title-login">Send Message</div>
+                <div class="title-login" style="font-size: 1.2em;">Send Message</div>
                 <div class="input-box">
                     <span>Fullname</span>
-                    <input type="text" name="" id="" required>
+                    <input class="form-control" type="text" name="" id="" required>
                 </div>
                 <div class="input-box">
                     <span>Email</span>
-                    <input type="email" name="" id="" required>
+                    <input class="form-control" type="email" name="" id="" required>
                 </div>
                 <div class="input-box">
                     <span>Phone Number</span>
-                    <input type="number" name="" id="" required>
+                    <input class="form-control" type="number" name="" id="" required>
                 </div>
                 <div class="input-box">
                     <span>Messages</span>
-                    <textarea required name="" id="" cols="30" rows="10"></textarea>
+                    <textarea class="form-control" id="comment" rows="3" style="height: auto; margin: 5px 0 0 0; font-size: 14px;"></textarea>
                 </div>
-                <div class="submit-btn">
+                <div class="submit-btn text-end">
                     <input type="submit" value="Send Message">
                 </div>
             </form>
