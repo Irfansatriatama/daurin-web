@@ -328,7 +328,7 @@ a {
     height: auto;
 }
 
-.method h4 {
+.method .mt-2 {
     color: var(--green3);
     font-size: 28px;
     font-weight: bold;
@@ -461,6 +461,13 @@ a {
     border: var(--grey1) 2px solid;
 }
 
+.status-info .statush4 {
+    color: var(--yellowc); 
+    font-weight: 500; 
+    font-size: 24px; 
+    margin-left: 20px;
+}
+
 .icon-categories {
     width: 40px;
     height: auto;
@@ -481,10 +488,13 @@ a {
 }
 
 .conclusion{
-    margin-top: 30px;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
 }
+
+.conclusion h4.est {
+    margin: 30px 0 5px 15px;
+} 
 
 .form-info .sub-title {
     font-size: 20px;
@@ -504,6 +514,14 @@ a {
     font-size: 14px;
 }
 
+.trash-information .sub-title {
+    font-size: 16px;
+}
+
+.information .row .col-7 {
+    width: 44% !important;
+}
+
 /* tombol naik turun input number */
 
 input[type=number]::-webkit-inner-spin-button,
@@ -520,7 +538,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* Halaman Responsive */
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 
     .container-detail .txt-title {
         font-size: 30px;
@@ -540,8 +558,9 @@ input[type=number]::-webkit-outer-spin-button {
         height: auto;
     }
 
-    .method h4 {
+    .method .mt-2 {
         font-size: 20px;
+        color: var(--green3);
     }
 
     .information {
@@ -609,5 +628,190 @@ input[type=number]::-webkit-outer-spin-button {
 
     .est {
         font-size: 12px;
+    }      
+
+    .information .row .col-7  {
+        width: 54% !important;
+    }
+
+    .information .row .col-1 h4 {
+        margin-top: 0 !important;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .container-detail .txt-title {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+
+    .container-detail .title {
+        font-size: 14px;
+    }
+
+    .border {
+        width: 100% !important;
+    }
+
+    .method {
+        width: 95px;
+        height: 80px;
+        border-radius: 10px;
+    }       
+
+    .method img {
+        width: 40px;
+        height: auto;
+    }
+
+    .method .mt-2 {
+        font-size: 12px;
+        color: var(--green3);
+    }
+
+    .container-detail .col-6 {
+        width: 90%;
+    }
+
+    .container-detail .txt-title {
+        font-size: 26px;
+    }
+
+    .container-detail .txt-title2 {
+        font-size: 32px;
+        margin: 10px 0;
+    }
+
+    .status-info {
+        width: 200px;
+        padding: 10px 5px;
+    }
+
+    .status-info img {
+        width: 50px;
+    }
+
+    .status-info .statush4 {
+        font-size: 20px; 
+        margin-left: 18px;
+    }
+
+    .contact {
+        width: 160px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: var(--green2) 2px;
+        font-size: 14px;
+    }
+
+    .cancel {
+        background-color: var(--maroon2);
+        color: white;
+        width: 160px;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .information {
+        margin: 0 !important;
+        padding: 10px 0 10px 15px;
+    }
+
+    .information .data {
+        margin: 0 !important;
+    }
+
+    .trash-information {
+        margin: 0 !important;
+    }
+
+    .trash-information .sub-title {
+        font-size: 14px;
+    }
+
+    .trash-information .data h4{
+        font-size: 12px;
+    }
+
+    .border-custom h4{
+        font-size: 11px;
+    }
+
+    .form-categories h4 {
+        font-size: 12px;
+    }
+
+    .border-custom2 h4{
+        font-size: 13px;
+        margin-top: 6px;
+    }
+
+    textarea.form-control {
+        width: 92%;
+        font-size: 12px;
+    }
+
+    .icon-categories {
+        width: 25px;
+        height: auto;
+    }
+    
+    .txt-categories {
+        font-size: 10px;
+    }
+
+    .form-add img {
+        width: 23px;
+        height: auto;
+    }
+
+    .form-add input.form-control {
+        width: 44px;
+        height: 23px;
+    }
+
+    .conclusion {
+        margin-top: 20px;
+    }
+
+    .conclusion h4.est {
+        margin: 15px 0 5px 15px;
+    } 
+
+    .form-estimation h4 {
+        font-size: 11px;
+    }
+
+    .summary h4 {
+        font-size: 12px;
+    }
+
+    .sale {
+        font-size: 14px !important;
+        width: 150px !important;
+        height: 25px !important;
+    }
+
+    .summary .row .col-6 {
+        width: 50% !important;
+    }
+
+    .information .row .col-1 h4 {
+        font-size: 14px !important;
+        margin-top: 0px !important;
+    }    
+
+    .information .row .col-7  {
+        width: 50% !important;
+    }
+
+    .row .col-5 {
+        width: 38% !important;
+    }
+
+    .container-detail .col-6 {
+        width: 100% !important;
     }
 }
