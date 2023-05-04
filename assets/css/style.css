@@ -465,6 +465,7 @@ a {
     width: 40px;
     height: auto;
     vertical-align: middle;
+    margin-left: 30px !important;
 }
 
 .txt-categories {
@@ -481,6 +482,7 @@ a {
 }
 
 .conclusion{
+    margin-top: 15px;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
 }
@@ -601,12 +603,6 @@ input[type=number]::-webkit-outer-spin-button {
         font-size: 10px;
     }
 
-    .next {
-        width: 80px;
-        height: 25px;
-        font-size: 16px;
-    }
-
     .next img {
         width: 16px;
     }
@@ -635,6 +631,12 @@ input[type=number]::-webkit-outer-spin-button {
 
 @media screen and (max-width: 400px) {
 
+    .next {
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+    }
+
     .container-detail .txt-title {
         margin: 20px 0;
         font-size: 20px;
@@ -649,8 +651,8 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .method {
-        width: 95px;
-        height: 80px;
+        width: 140px;
+        height: 95px;
         border-radius: 10px;
     }       
 
@@ -660,7 +662,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .method .mt-2 {
-        font-size: 12px;
+        font-size: 16px;
         color: var(--green3);
     }
 
@@ -746,6 +748,10 @@ input[type=number]::-webkit-outer-spin-button {
         font-size: 12px;
     }
 
+    .icon-categories {        
+        margin-left: 0 !important;
+    }
+
     .border .icon-categories {
         width: 20px;
         height: auto;
@@ -797,22 +803,32 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .container .col-12 .txt-recycling {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .container .col-12 .recycling {
-        width: 150px;
+        width: 200px;
+        height: 35px;
         border-radius: 40px;
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .container .col-12 img {
-        width: 180px !important;
+        width: 280px !important;
+        height: auto !important;
+    }
+
+    .container .col-12 img.img-user {
+        width: 150px !important;
         height: auto !important;
     }
 
     .container .col-12 .border {
         padding: 15px 20px 40px 20px;
+    }
+
+    .container .col-12 .list-item {
+        padding: 0;
     }
 
     .form {
@@ -884,7 +900,6 @@ input[type=number]::-webkit-outer-spin-button {
 
     .border .status h4 {
         font-size: 20px !important;
-        margin: 0 10px;
     }
 
     .border .status2 h4 {
@@ -904,8 +919,12 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .container-detail {
-        width: auto;
+        width: 100%;
         height: auto;
+    }
+
+    .container .col-md-1 {
+        display: none;
     }
 
 /* ---------- */
@@ -928,6 +947,10 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .container-detail .col-6 {
-        width: 100% !important;
+        width: 90% !important;
+    }
+
+    .border .method img.icon-method {
+        width: 55px !important;
     }
 }
