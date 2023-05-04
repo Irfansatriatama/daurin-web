@@ -746,8 +746,8 @@ input[type=number]::-webkit-outer-spin-button {
         font-size: 12px;
     }
 
-    .icon-categories {
-        width: 25px;
+    .border .icon-categories {
+        width: 20px;
         height: auto;
     }
     
@@ -844,10 +844,22 @@ input[type=number]::-webkit-outer-spin-button {
         justify-content: center;
     }
 
+    .form-trash .col-3 {
+        padding: 0;
+    }
+
     .border img {
-        width: 140px;
+        width: 18px;
         height: auto;
-        margin: 5px 0 15px 0;
+    }
+
+    .border img.user-icon-small {
+        width: 45px;
+        height: auto;
+    }
+
+    .border img.add-number {
+        width: 20px;
     }
 
     .form-cng h4 {
@@ -859,7 +871,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .justify-content-end {
-        justify-content: center !important;
+        justify-content: end !important;
     }
 
     .save {
@@ -872,6 +884,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     .border .status h4 {
         font-size: 20px !important;
+        margin: 0 10px;
     }
 
     .border .status2 h4 {
@@ -888,6 +901,11 @@ input[type=number]::-webkit-outer-spin-button {
     
     .border .date h4 {
         font-size: 13px !important;
+    }
+
+    .container-detail {
+        width: auto;
+        height: auto;
     }
 
 /* ---------- */
