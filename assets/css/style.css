@@ -43,13 +43,6 @@ a {
     height: auto;
 }
 
-.container {
-    margin: 20px;
-    width: 80%;
-    height: auto;
-    position: absolute;
-}
-
 .container-detail {
     margin: 20px;
     width: 100%;
@@ -793,6 +786,111 @@ input[type=number]::-webkit-outer-spin-button {
         width: 150px !important;
         height: 25px !important;
     }
+/* bagian akun */
+
+    .row .left-menu {
+        display: none;
+    }
+
+    .container .row .col-12 {
+        width: 100%;
+    }
+
+    .container .col-12 .txt-recycling {
+        font-size: 14px;
+    }
+
+    .container .col-12 .recycling {
+        width: 150px;
+        border-radius: 40px;
+        font-size: 12px;
+    }
+
+    .container .col-12 img {
+        width: 180px !important;
+        height: auto !important;
+    }
+
+    .container .col-12 .border {
+        padding: 15px 20px 40px 20px;
+    }
+
+    .form {
+        margin: 0 10px;
+    }
+    
+    .form h4 {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    
+    .form-cng {
+        margin: 0 10px;
+    }
+    
+    .form-cng h4 {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .form .form-control {
+        font-size: 13px;
+    }
+
+    .border .txt-title {
+        font-size: 30px;
+        margin: 15px 0 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .border img {
+        width: 140px;
+        height: auto;
+        margin: 5px 0 15px 0;
+    }
+
+    .form-cng h4 {
+        font-size: 13px;
+    }
+
+    .form-cng .form-control {
+        font-size: 13px;
+    }
+
+    .justify-content-end {
+        justify-content: center !important;
+    }
+
+    .save {
+        margin-right: 0 !important;
+    }
+
+    .border .list img {
+        width: 40px !important;
+    }
+
+    .border .status h4 {
+        font-size: 20px !important;
+    }
+
+    .border .status2 h4 {
+        font-size: 20px !important;
+    }
+
+    .border .status3 h4 {
+        font-size: 20px !important;
+    }
+
+    .border .detail h4 {
+        font-size: 13px !important;
+    }
+    
+    .border .date h4 {
+        font-size: 13px !important;
+    }
+
+/* ---------- */
 
     .summary .row .col-6 {
         width: 50% !important;
