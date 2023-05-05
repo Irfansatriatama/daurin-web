@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Daurin</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        html, body{
+            display: grid;
+            height: 100%;
+            place-items: center;
+        }
+        .text{
+            color: #4ECB71;
+            font-size: 0.9em;
+            margin-top: 10px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo"><a href="navbar-login.html"><img src="../assets/images/logo-with-text.png" alt="Daurin Logo"></a></div>
+        <div class="title-login">
+            <span>Nice to meet you!</span>
+            <span>Daurin pleased to have you here</span>
+        </div>
+        <form action="">
+            <div class="row-login">
+                <input type="text" placeholder="Full name" required>
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+            </div>
+            <div class="text">By registering, you agreeing to out Terms of use and Privacy and Policy.</div>
+            <div class="login">
+                <input type="submit" value="SIGN UP">
+            </div>
+            <div class="link">Already Have an Account?<a href="login.html"> Sign In</a></div>
+        </form>
+    </div>
+</body>
+</html>
